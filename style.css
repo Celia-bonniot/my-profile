@@ -1,0 +1,64 @@
+@import url("components/card.css");
+@import url("components/title.css");
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color:#C4BBAF;
+}
+
+
+.container{
+  width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+a {
+  color: #5C4742;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #C4BBAF;
+  text-decoration: none;
+}
+
+#photo{
+  margin: auto auto;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.cat_div {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.bouton {
+  background-color:#5C4742;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 4px;
+}
+
+.bouton:hover {
+  background-color:#C4BBAF ;
+  color: white;
+}
+
+.list_inline {
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 5px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.list_inline li {
+  display: inline;
+  padding: 10px;
+}
